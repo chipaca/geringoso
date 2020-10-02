@@ -21,7 +21,7 @@ setup(
         "console_scripts": ["geringoso = geringoso:main"],
     },
     python_requires=">=3",
-    install_requires=["syltippy"],
+    install_requires=Path("requirements.txt").read_text().split(),
     classifiers=[
         "Programming Language :: Python :: 3 :: Only",
         "Natural Language :: Spanish",
