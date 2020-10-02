@@ -25,7 +25,6 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3 :: Only",
         "Natural Language :: Spanish",
-        "Natural Language :: Geringoso",
         "Operating System :: OS Independent",
         "Topic :: Text Processing :: Filters",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
