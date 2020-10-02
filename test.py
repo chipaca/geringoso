@@ -19,7 +19,9 @@ class Test(unittest.TestCase):
             "pst": "pst",
             "rin": "ripin",
             "muy": "mupuy",
+            "mu": "mupu",
             "y": "ipy",
+            "HO": "HOPO",
         }.items():
             with self.subTest(win=win):
                 self.assertEqual(_pe(win), wout)
