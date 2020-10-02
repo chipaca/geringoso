@@ -19,9 +19,9 @@ setup(
     py_modules=["geringoso"],
     entry_points={
         "console_scripts": ["geringoso = geringoso:main"],
-        },
+    },
     python_requires=">=3",
-    install_requires=['syltippy'],
+    install_requires=["syltippy"],
     classifiers=[
         "Programming Language :: Python :: 3 :: Only",
         "Natural Language :: Spanish",
